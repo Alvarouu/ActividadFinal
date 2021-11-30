@@ -9,6 +9,12 @@ package geometria;
  *
  * @author javier
  */
+
+/**
+ * Clase con el modificador public llamada Rectangulo que 
+ * implementa la clase FiguraGeometrica
+ * @author alumnado
+ */ 
 public class Rectangulo implements FiguraGeometrica
 {
     private double base;

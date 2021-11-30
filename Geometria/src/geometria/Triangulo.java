@@ -11,11 +11,17 @@ package geometria;
  */
 public class Triangulo implements FiguraGeometrica
 {
-    private double base;
-    private double altura;
-    private double areaTriangulo;
     
-
+    
+    private double base; //Se crea el atributo base
+    private double altura; //Se crea el atributo altura
+    private double areaTriangulo; //Se crea el atributo areaTriangulo
+    
+    /**
+     * Constructor de base y altura
+     * @param base base del triangulo
+     * @param altura altura del triangulo
+     */
     public Triangulo(double base, double altura) 
     {
         this.base = base;
